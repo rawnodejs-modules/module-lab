@@ -1,0 +1,3 @@
+[submodule "module-lab"]
+	path = module-lab
+	url = git@github.com:rawnodejs-modules/module-lab.git
