@@ -1,0 +1,15 @@
+{
+    "name": "module-lab",
+    "version": "1.0.0",
+    "description": "Raw NodeJs Module Lab",
+    "main": "src/index.js",
+    "bin": {
+        "module-lab": "./bin/index.js"
+    },
+    "scripts": {
+        "test": "node tests/module-lab.test.js"
+    },
+    "keywords": [],
+    "author": "Raw NodeJs",
+    "license": "MIT"
+}
