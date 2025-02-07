@@ -1,15 +1,45 @@
 {
-    "name": "module-lab",
-    "version": "1.0.0",
-    "description": "Raw NodeJs Module Lab",
-    "main": "src/index.js",
-    "bin": {
-        "module-lab": "./bin/index.js"
-    },
-    "scripts": {
-        "test": "node tests/module-lab.test.js"
-    },
-    "keywords": [],
-    "author": "Raw NodeJs",
-    "license": "MIT"
+  "name": "module-lab",
+  "version": "1.0.0",
+  "description": "Raw NodeJs Module Lab",
+  "main": "index.js",
+  "bin": {
+    "rawnode": "bin/index.js",
+    "module-create": "src/core/modules/create-module/index.js"
+  },
+  "directories": {
+    "doc": "docs",
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "test",
+    "starts": "node server.js",
+    "start": "NODE_PATH=./src/core/modules node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/rawnodejs-modules/module-lab.git"
+  },
+  "keywords": [
+    "zerp-dependencies",
+    "no",
+    "third",
+    "party",
+    "modules",
+    "raw",
+    "nodejs",
+    "mvc",
+    "advanced",
+    "full",
+    "stack",
+    "database",
+    "views",
+    "controllers"
+  ],
+  "author": "Raw NodeJs",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rawnodejs-modules/module-lab/issues"
+  },
+  "homepage": "https://github.com/rawnodejs-modules/module-lab#readme"
 }

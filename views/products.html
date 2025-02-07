@@ -1,0 +1,17 @@
+<h1>PRODUCTS</h1>
+
+{% if products && products.length %}
+    <ul>
+        <strong>Product Items</strong></br>
+        {% for product in products %}
+            <li>
+                {{ product.title }} 
+                <span><strong>Price: 
+                    <u style="color:green;">${{product.price }}</u>
+                </strong></span>
+            </li>
+        {% endfor %}
+    </ul>
+{% else %}
+    <p>No products found.</p>
+{% endif %}
