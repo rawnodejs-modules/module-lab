@@ -4,8 +4,8 @@
   "description": "Raw NodeJs Module Lab",
   "main": "index.js",
   "bin": {
-    "rawnode": "bin/index.js",
-    "module-create": "src/core/modules/create-module/index.js"
+    "module-lab": "bin/index.js",
+    "create-module": "create-module/index.js"
   },
   "directories": {
     "doc": "docs",
@@ -14,7 +14,7 @@
   "scripts": {
     "test": "test",
     "starts": "node server.js",
-    "start": "NODE_PATH=./src/core/modules node app.js"
+    "start": "NODE_PATH=./modules node app.js"
   },
   "repository": {
     "type": "git",
